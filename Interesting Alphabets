@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Solution {
+	public static void main(String[] args) {
+		
+        Scanner s = new Scanner(System.in);
+		int rows = s.nextInt();
+		int i,j;
+		i=rows;
+		while(i>=1){
+		    j=i;
+		    while(j<=rows){
+		        System.out.print((char)(j+64));
+		        j++;
+		    }
+		    i--;
+		    System.out.println();
+		}
+	}
+}
